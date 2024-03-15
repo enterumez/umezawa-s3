@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Umezawa-s'>
+  <meta property='og:url' content='URL入る'>
+  <meta property='og:description' content='Umezawa-s'>
+  <meta property="og:image" content="img/Designer (11).jpeg">
+  <meta name="description" content="Umezawa-s" />
+  <title>Umezawa-s</title>
+  <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="shortcut icon" href="img/Designer-_11_.ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+</head>
+  <style>
+.section:nth-child(odd) {
+  background-color: #ffffff; /* 白 */
+}
+
+.section:nth-child(even) {
+  background-color: #f0f0f0; /* グレー */
+}
+.underl {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 600px) {
+    .field {
+  display: flex;
+  justify-content: center;
+    }
+    .me{
+  margin-top: 40px;  
+    }
+    .futsal {
+  margin-right: 50px;
+}
+    .futsal2 {
+  margin-top: 80px;      
+}
+/* 最後の子要素にはマージンを適用しないため、margin-rightを0に設定 */
+.child:last-child {
+  margin-right: 0;
+}
+}
+@media screen and (max-width: 600px) {
+    .field {
+        flex-direction: column; /* 要素を縦に並べる */
+    }
+    .child img {
+        margin: 0 auto; /* 画像を水平方向にセンターに配置 */
+        display: block; /* 画像をブロックレベル要素として扱う */
+    }
+      .futsal3 {
+  margin-bottom: 30px;      
+}
+  .section-title {
+    font-size: 20px;
+}
+}
+  </style>
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <h1 class="logo">
+        <span class="logo-title">Umezawa-s</span>
+        <span class="logo-desc">IT Solutions Architect / PjM / PdM</span>
+      </h1>
+    </header>
+    <nav id="gnav">
+      <ul>
+        <li><i class="fas fa-user fa-lg"><a href="#Profile">PROFILE</a></i></li>
+        <li><i class="fas fa-tasks fa-lg""><a href="#WORK EXPERIENCE">WORK EXPERIENCE</a></i></li>
+        <li><i class="fas fa-envelope fa-lg"><a href="#contact">CONTACT</a></i></li>
+      </ul>
+    </nav>
+    <main id="contents">
+
+      <section class="section" id="Profile">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="fas fa-user"><span class="section-title-css">PROFILE</span></i></h2>
+          </div>
+          <div class="field">
+            <div class="profile child futsal futsal3"><img src="img/profile/プロフィール.jpg" width=300px></div>
+            <div class="child me"><h5>NAME：ウメザワ　シュウタ<br>BIRTH：1994</h5><br><br>略歴：<br>フットサルプレーヤーとして活動するため、20歳時にイタリアへと渡り1年間活動。<br>帰国後、大阪、仙台で活動し、23歳時に引退。<br>パソコン教室の教室責任者からキャリアをスタートさせ、コンビニ専門の経営コンサルタントを経て、<br>社内SEとしての現在にいたる。</div>
+          </div>
+        <br><br>
+          <div class="field">
+            <div class="child futsal futsal2 futsal3"><img src="img/profile/プロフィールcalcio.jpg" width=350px></div>
+            <div class="child futsal futsal3"><img src="img/profile/イタリア時代新聞①.PNG" width=350px></div>
+            <div class="child futsal futsal2"><img src="img/profile/イタリア時代キャプテン.JPG" width=350px></div>
+            </div>
+        </div>
+</section>
+      
+      <section class="section" id="WORK EXPERIENCE">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="fas fa-tasks fa-lg"><span class="section-title-css">WORK EXPERIENCE</span></i></h2>
+            </div>
+          <br>
+          <h4 class="underl">2022-現在<br>株式会社NGK</h4><h5>社内SE</h5>
+          <p>　●kintone構築・運用<br>　　・要求整理<br>　　・要件定義<br>　　・要件定義書など各種ドキュメント作成<br>　　・カスタマイズファイル作成（javascript）<br>　　・マニュアル作成
+          <br><br>　●MA（マーケティングオートメーション）ツール活用<br><br>　●人事情報システム開発PjM<br>　　・市場調査<br>　　・ベンダーとのコミュニケーション<br>　　・要求整理<br>　　・要件定義<br>　　・要件定義書など各種ドキュメント作成<br>　　・マニュアル作成<br>　　・ユーザー説明会の実施<br>　　・ヘルプサイト制作→改善点分析<br>　　・ヘルプデスク<br>　　・ユーザインタビュー<br>　　・インシデント管理 体制構築・運用<br>　　・SLO/利用規約の作成<br>　　・サポートツールの作成(Excel VBA)
+          <br><br>　●業務効率化プログラムファイルの作成（Excel）
+          <br><br><h4 class="underl">2020-2022<br>株式会社セブン-イレブン・ジャパン</h4><h5>FC加盟店のオーナー様とともに、店舗ごとの売上/利益を改善する経営相談員</h5>
+          <br><br><h4 class="underl">2017-2020<br>株式会社イー・トラックス</h4><h5>初中級者向けのパソコン教室の教室責任者</h5>
+          <br>
+          <br>
+          <h5>＊2022年に「Enter IT Support」を開業し、個人事業としてkintone運用支援で2社実施</h5>
+        </div>
+</section>
+      
+<section class="section">
+<div class="inner">
+<div class="section-title-block">
+<h2 class="section-title"><span class="section-title-css">QUALIFICATIONS</span></h2>
+</div>
+                <h5>・ITパスポート</h5>
+                <br>
+                <h5>・Excel VBAスタンダード</h5>
+                <br>
+                <h5>・統計検定2級</h5>
+                <br>
+                <h5>・kintone カスタマイズSP</h5>
+                <br>
+                <h5>・kintone アプリデザインSP</h5>
+                <br>
+                <h5>・イタリア語検定 3級</h5>
+</div>
+</section>
+
+<section class="section">
+<div class="inner">
+<div class="section-title-block">
+<h2 class="section-title"><span class="section-title-css">EDUCATION</span></h2>
+</div>
+            <h5>私立日本大学付属藤沢高等学校　卒業</h5><br>
+            <h5>私立玉川大学リベラルアーツ学部リベラルアーツ学科 中退　→　渡伊</h5><br>
+            <h5>電気通信大学高度技術研修『独り立ちデータサイエンティスト 養成講座』　修了</h5><br><br>            
+            </div>
+</section>
+
+<section class="section">
+<div class="inner">
+<div class="section-title-block">
+<h2 class="section-title"><span class="section-title-css">OUTPUT</span></h2>
+</div>
+
+<div class="field">
+<div class="child">
+<center><iframe class="note-embed" src="https://note.com/embed/notes/nec30ef8ebc68" style="border: 0; display: block; max-width: 99%; width: 494px; padding: 0px; margin: 10px 0px; position: static; visibility: visible;" height="400"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script></center>
+</div>
+<div class="child">
+<center><iframe class="note-embed" src="https://note.com/embed/notes/nf765ade6b408" style="border: 0; display: block; max-width: 99%; width: 494px; padding: 0px; margin: 10px 0px; position: static; visibility: visible;" height="400"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script></center>      
+</div>
+</div>
+<div class="field">
+<div class="child">
+<center><iframe class="note-embed" src="https://note.com/embed/notes/n5a6483a58345" style="border: 0; display: block; max-width: 99%; width: 494px; padding: 0px; margin: 10px 0px; position: static; visibility: visible;" height="400"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script></center>
+</div>
+<div class="child">
+<center><iframe class="note-embed" src="https://note.com/embed/notes/n212b5ea8dc76" style="border: 0; display: block; max-width: 99%; width: 494px; padding: 0px; margin: 10px 0px; position: static; visibility: visible;" height="400"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script></center>      
+</div>
+</div>
+          </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="fas fa-envelope fa-lg"><span class="section-title-css">CONTACT</span></i></h2>
+            <br>
+            <br>
+            <p class="section-desc">
+                <h4><a href="enter.umezawa@gmail.com" target="_blank">enter.umezawa@gmail.com</a></h4>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <nav class="footer-link">
+          <ul>
+            <li><a href="#Profile">Profile</a></li>
+            <li><a href="#WORK EXPERIENCE">WORK EXPERIENCE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">© 2024 Umezawa Shuta. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
