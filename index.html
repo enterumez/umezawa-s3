@@ -174,7 +174,7 @@ margin-bottom: 0px;
         <li><i class="fas fa-user fa-lg"><a href="#Profile">PROFILE</a></i></li>
         <li><i class="fas fa-tasks fa-lg""><a href="#EXPERIENCE">EXPERIENCE</a></i></li>
         <li><i class="fas fa-envelope fa-lg"><a href="#contact">CONTACT</a></i></li>
-  <li><div id="langChenge">
+  <li id="langChenge2"><div id="langChenge">
     <input type="radio" name="land" id="langJa" checked>
     <input type="radio" name="land" id="langEn">
   <label for="langJa">
@@ -353,7 +353,7 @@ margin-bottom: 0px;
   <script>
 window.addEventListener('DOMContentLoaded', (event) => {
   if (window.matchMedia('(max-width: 600px)').matches) {
-    var element = document.getElementById("langChenge");
+    var element = document.getElementById("langChenge2");
     if (element !== null) {
       element.parentNode.removeChild(element);
     }
