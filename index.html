@@ -130,9 +130,6 @@ margin-bottom: 0px;
   .section-title {
     font-size: 20px;
 }
-  #langChenge {
-    display: none;
-}
 }
 
  /* === ラジオボタンは非表示 ================== */
@@ -353,5 +350,15 @@ margin-bottom: 0px;
   <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
   <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
+  <script>
+window.addEventListener('DOMContentLoaded', (event) => {
+  if (window.matchMedia('(max-width: 600px)').matches) {
+    var element = document.getElementById("langChenge");
+    if (element !== null) {
+      element.parentNode.removeChild(element);
+    }
+  }
+});
+</script>
 </body>
 </html>
